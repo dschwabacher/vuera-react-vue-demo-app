@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <b-button variant="secondary" @click="clickMe()">This Vue button has been clicked: {{ count }} times</b-button>
-  </div>
+    <b-button squared variant="dark" @click="clickMe()">This button has been clicked: {{ count }} times</b-button>
 </template>
 
 <script>

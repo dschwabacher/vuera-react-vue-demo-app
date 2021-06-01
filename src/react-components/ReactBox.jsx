@@ -12,8 +12,8 @@ export const boxStyle = {
 
 export default (props) => {
     return (
-      <div ref={props.box.ref} id={props.box.id} style={boxStyle}>
-        {props.box.message}
-      </div>
+      <span ref={props.ref} id={props.id} style={boxStyle}>
+        {props.message}
+      </span>
     );
   };
