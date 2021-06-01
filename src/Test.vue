@@ -1,7 +1,6 @@
 <template>
   <div>
-    <h4>Hello from Vue!!!</h4>
-    <button @click="clickMe()">{{ this.clicky ? "Click" : "Clack" }}</button>
+    <button @click="clickMe()">This Vue button has been clicked: {{ count }} times</button>
   </div>
 </template>
 <script>
@@ -9,12 +8,12 @@
     name: 'Testing',
     methods: {
       clickMe() {
-        this.clicky = !this.clicky
+        this.count += 1
       }
     },
     data() {
       return {
-        clicky: true
+        count: 0
       }
     }
   }

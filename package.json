@@ -1,5 +1,5 @@
 {
-  "name": "aa-react-vuera",
+  "name": "vue-in-react-demo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -46,6 +46,7 @@
     "react-app-polyfill": "^1.0.1",
     "react-dev-utils": "^9.0.1",
     "react-dom": "^16.9.0",
+    "react-xarrows": "^1.7.0",
     "resolve": "1.10.0",
     "sass-loader": "7.1.0",
     "semver": "6.0.0",
