@@ -34,7 +34,7 @@ export default () => {
       <p 
         id="react-callout"
         style={boxStyle}
-        >This is a React component!</p>
+        >This is a React component</p>
       <Xarrow color="#03fcf0" path={"grid"} 
         gridBreak={0.2} start="react-callout" end="box1"
         strokeWidth={10}></Xarrow>

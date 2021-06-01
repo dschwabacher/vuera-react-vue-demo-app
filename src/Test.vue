@@ -1,10 +1,11 @@
 <template>
   <div>
-    <button @click="clickMe()">This Vue button has been clicked: {{ count }} times</button>
+    <b-button variant="secondary" @click="clickMe()">This Vue button has been clicked: {{ count }} times</b-button>
   </div>
 </template>
+
 <script>
-  export default {
+export default {
     name: 'Testing',
     methods: {
       clickMe() {
